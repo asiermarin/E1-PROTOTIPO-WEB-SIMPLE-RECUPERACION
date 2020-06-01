@@ -97,7 +97,7 @@
     #titulo-form {
         text-align: center;
     }
-
+    #articulo-lista-incidencias,
     #articulo-index {
         padding-top: 50px;
         padding-right: 50px;
@@ -140,10 +140,62 @@
         background-image: url(https://cdn.hipwallpaper.com/i/65/26/ZFbMTg.jpg);
     }
 
+    #main-incidencias,
     #nueva-image {
         background-image: url(https://c1.wallpaperflare.com/preview/447/559/773/laser-cutting-machine-plasma.jpg);
+        /* height: 730px; */
     }
 
     #detalle-image {
         background-image: url(https://www.findlight.net/blog/wp-content/uploads/2016/10/laser-marking.jpg);
+    }
+
+    /* #main-incidencias {
+        height: 1000px;
+    } */
+
+    #form-nueva-incidencia {
+        padding-top: 40px;
+        padding-right: 100px;
+        padding-left: 200px;
+        /* color: #ffffb3; */
+        /* color:#cccc00; */
+        color: black;
+    }
+
+    #boton-form-incidencias {
+        width: 120px;
+        height: 30px;
+        background-color: #00e673;
+        color:black;
+    }
+
+    #form-titulo-background,
+    #form-background {
+        color: #ffffb3;
+    }
+
+    th {
+        width: 200px;
+    }
+    
+    tr {
+        width: 800px;;
+    }
+
+    #tabla-lista-incidencias {
+        color: #ffffb3;
+        background-color: #333;
+        padding: 10px;;
+        opacity: 0.8;
+    }
+
+    #tabla-lista-incidencias th,
+    #tabla-lista-incidencias p,
+    #tabla-lista-incidencias a,
+    #tabla-lista-incidencias img {
+        width: 110px;
+        text-align: center;
+        /* opacity: 1; */
+        /* color: white; */
     }

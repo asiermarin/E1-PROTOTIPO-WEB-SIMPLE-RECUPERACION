@@ -21,15 +21,95 @@
                 <h1>NEXUS</h1>
             </div>
             <div class="iconos">
-                <a href="https://twitter.com/?lang=es"><img src="./img/iconoTwitter2.png" alt="" class="icono" /></a>
-                <a href="https://twitter.com/?lang=es"><img src="./img/facebook.png" alt="" class="icono" /></a>
-                <a href="https://twitter.com/?lang=es"><img src="./img/linkedln.png" alt="" class="icono" /></a>
+                <a href="https://twitter.com/?lang=es"><img src="./img/iconoTwitter2.png" alt="imagen-twitter" class="icono" /></a>
+                <a href="https://www.facebook.com/"><img src="./img/facebook.png" alt="imagen-facebook" class="icono" /></a>
+                <a href="https://es.linkedin.com/"><img src="./img/linkedln.png" alt="imagen-linkedln" class="icono" /></a>
                 <p class="texto-encabezado">Conocenos más en las redes sociales </p>
             </div>
     </header>
     <main>
         <div class="contenido-main" id="nueva-image">
-
+            <article>
+                <section>
+                    <div id="form-nueva-incidencia">
+                        <h2 id="form-titulo-background">Introduce una nueva incidencia</h2>
+                        <br>
+                        <form action="./incidencias.html" method="post" id="form-background">
+                            <p>Numero de referencia de la máquina: </p>
+                            <input type="text" name="reference_number">
+                            <br>
+                            <br>
+                            <p>Nombre del empleado: </p>
+                            <input type="text" name="">
+                            <br>
+                            <br>
+                            <p>Ttulo de la incidencia: </p>
+                            <input id="titulo" type="text" name="title">
+                            <br> 
+                            <br>
+                            <p>Estado: </p>
+                            <select id="estado" name="estado" name="status">
+                                <option selected>Abierto</option>
+                                <option>Cerrado</option>
+                            </select>
+                            <br> 
+                            <br>
+                            <p>Tipo: </p>
+                            <input type="radio" name="color" value="averia"> Averia <br>  
+                            <input type="radio" name="color" value="mejora"> Mejora <br>  
+                            <input type="radio" name="color" value="mantenimiento">Mantenimiento <br>  
+                            <br> 
+                            <br>
+                            <p>Nivel de urgencia: </p>
+                            <select id="urgencia" name="urgency_level">
+                                    <option selected>Urgente</option>
+                                    <option>Alta</option>
+                                    <option>Media</option>
+                                    <option>Baja</option>
+                            </select>
+                            <br>
+                            <br>
+                       </form>
+                    </div>
+                </section>
+            </article>
+            <sidebar>
+                <div id="form-nueva-incidencia">
+                    <br>
+                    <br>
+                    <br>
+                    <form action="./incidencias.html" method="post" id="form-background">
+                        <p>Selecciona la fecha de apertura: </p>
+                        <label for="fecha">
+                            <input type="date" name="starting_date" />
+                        </label>
+                        <br>
+                        <br>
+                        <p>Selecciona la fecha de resolucion: </p>
+                        <label for="fecha">
+                            <input type="date"  name="resolution_date" />
+                        </label>
+                        <br>
+                        <br>
+                        <label for="comentario">Comentarios
+                            <input type="placeholder"  name="comment" />
+                        </label>
+                        <br>
+                        <br>
+                        <label for="comentario">Descripcion corta
+                            <br>
+                            <textarea rows="5"></textarea>
+                        </label>
+                        <br>
+                        <br>    
+                        <input type="checkbox" checked>Acepta las condiciones</input>
+                        <br>
+                        <br>
+                        <input class="personalizar" type="submit" value="Registrar incidencia" id="boton-form-incidencias"/>
+                        <br>
+                   </form>
+                </div>
+            </sidebar>
         </div>
     </main>
     <footer>
