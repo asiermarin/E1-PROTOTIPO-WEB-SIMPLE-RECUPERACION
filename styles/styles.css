@@ -124,10 +124,26 @@
         display: inline-flex;
         /* height: 50%; */
         /* height: 840px; */
-        background-image: url(https://www.jom.es/wp-content/uploads//2020/03/como-funciona-una-maquina-de-corte-por-laser.jpg);
+        /* background-image: url(https://www.jom.es/wp-content/uploads//2020/03/como-funciona-una-maquina-de-corte-por-laser.jpg); */
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         color: #ffffb3;
+    }
+
+    #index-image {
+        background-image: url(https://www.jom.es/wp-content/uploads//2020/03/como-funciona-una-maquina-de-corte-por-laser.jpg);
+    }
+
+    #incidencias-image {
+        background-image: url(https://cdn.hipwallpaper.com/i/65/26/ZFbMTg.jpg);
+    }
+
+    #nueva-image {
+        background-image: url(https://c1.wallpaperflare.com/preview/447/559/773/laser-cutting-machine-plasma.jpg);
+    }
+
+    #detalle-image {
+        background-image: url(https://www.findlight.net/blog/wp-content/uploads/2016/10/laser-marking.jpg);
     }
