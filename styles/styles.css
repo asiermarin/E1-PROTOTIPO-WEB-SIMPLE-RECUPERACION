@@ -2,6 +2,7 @@
     body {
         height: 100%;
         min-height: 100% !important;
+        background-color: #333;
     }
     
     * {
@@ -13,15 +14,21 @@
     }
     
     header {
-        height: 7%
+        height: 10%;
+        max-height: 67px;
     }
     
     main {
-        height: 78%
+        height: 75%;
     }
     
     footer {
-        height: 15%
+        min-height: 15%;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
     }
     
     header .fondo-encabezado {
@@ -29,8 +36,19 @@
         /* height: 20%; */
         /* height: 90px; */
         width: 100%;
+        height: 100%;
         display: inline-flex;
         color: white;
+    }
+
+    .titulo {
+        padding-top: 14px;
+        /* padding-left: 10px; */
+        /* margin-right: 250px; */
+        margin: 0 auto; 
+        /* position: absolute;
+        top: 1%;
+        left: 50%; */
     }
     
     .boton-encabezado {
@@ -40,19 +58,52 @@
     
     .botones-header {
         margin-left: 50px;
-        padding-top: 15px;
-        /* margin-right: 1000px; */
-        width: 50%;
+        padding-top: 15px; 
+        margin-right: 10px; 
+        justify-content: center;
+        width: 380px; 
+    }
+
+    #boton-form {
+        width: 90px;
+        height: 30px;
     }
     
     .iconos {
-        width: 30%;
+        /* width: 40%; */
+        display: inline-flex;
+        padding-top: 15px;
+        /* text-align: right; */
     }
     
     .icono {
         width: 40px;
         height: 40px;
-        ali
+        padding-right: 7px;
+    }
+    
+    .texto-encabezado {
+        text-align: left;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+
+    #form-index {
+        padding-top: 50px;
+        padding-right: 50px;
+    }
+
+    #titulo-form {
+        text-align: center;
+    }
+
+    #articulo-index {
+        padding-top: 50px;
+        padding-right: 50px;
+        padding-left: 50px;
+        max-width: 600px;
+        margin-right: 300px;
     }
     
     footer .contenido-footer {
@@ -63,13 +114,20 @@
         padding-top: 10px;
         /* height: 30%; */
         /* height: 150px; */
-        height: 100%;
+        /* height: 100%;  */
         text-align: center;
     }
     
     main .contenido-main {
         width: 100%;
+        height: 100%;
         display: inline-flex;
         /* height: 50%; */
         /* height: 840px; */
+        background-image: url(https://www.jom.es/wp-content/uploads//2020/03/como-funciona-una-maquina-de-corte-por-laser.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        color: #ffffb3;
     }
