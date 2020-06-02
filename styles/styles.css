@@ -164,10 +164,11 @@
     }
 
     #boton-form-incidencias {
-        width: 120px;
+        width: 80px;
         height: 30px;
         background-color: #00e673;
         color:black;
+        /* padding-left: 29px; */
     }
 
     #form-titulo-background,
@@ -175,13 +176,13 @@
         color: #ffffb3;
     }
 
-    th {
+    /* th {
         width: 200px;
     }
     
     tr {
         width: 800px;;
-    }
+    } */
 
     #tabla-lista-incidencias {
         color: #ffffb3;
@@ -196,6 +197,8 @@
     #tabla-lista-incidencias img {
         width: 110px;
         text-align: center;
+        font-size: 14px;
         /* opacity: 1; */
         /* color: white; */
+        padding: 2px;
     }
